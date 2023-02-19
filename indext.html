@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normailze.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,800;1,400;1,500&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Start settings Box -->
+    <div class="settings-box">
+        <i class="fa fa-gear"></i>
+        <div class="option-box">
+            <h4>Colors</h4>
+            <ul class="color-list">
+                <li class="active" data-color="#d37329"></li>
+                <li data-color="#37e18c"></li>
+                <li data-color="#2ea6d5"></li>
+                <li data-color="#8929cd"></li>
+                <li data-color="#cd29b2"></li>
+            </ul>
+        </div>
+        <div class="option-box">
+            <h4>Random backgrounds</h4>
+            <div class="random-backgrounds">
+                <span class="yes" data-background="yes">Yes</span>
+                <span class="no active" data-background="no">No</span>
+            </div>
+        </div>
+
+        <div class="option-box">
+            <h4>Show navigation bullets</h4>
+            <div class="show-navs">
+                <span class="yes active" data-show="yes">Yes</span>
+                <span class="no" data-show="no">No</span>
+            </div>
+        </div>
+        <button class="reset">Reset</button>
+    </div>
+    <!-- End settings Box -->
+    
+    <!-- Start Nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tool-tip">About us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tool-tip">Our skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tool-tip">Our gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tool-tip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tool-tip">Our features</div>
+        </div>
+        <div class="bullet" data-section=".testimonails">
+            <div class="tool-tip">Testimonials</div>
+        </div>
+    </div>
+    <!-- End Nav bullets -->
+
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">special desgin</div>
+                <div class="linkes-container">
+                    <ul class="links">
+                        <li><a href="#" class="active" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonails">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="bars"><i class="fa-solid fa-bars"></i></div>
+                
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>we are <span>creative</span> agency</h1>
+            <p>We provide knowledge because it is vey powerful and this is the best website to get Knowledge</p>
+        </div>
+        
+    </div>
+    <!-- End Landing Page -->
+
+    <!-- Start about us -->
+    <div class="about-us">
+        <div class="container">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>An 'About Us' page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business An 'About Us' page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business. </p>
+            </div>
+            <div class="image-con">
+                <img src="images/about-us.jpg" alt="illustration">
+            </div>
+        </div>
+    </div>
+    <!-- End about us -->
+
+    <!-- Start our skills -->
+    <div class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-progress="95%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">javaScript</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-name">Python</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-name">C++</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-name">Java</div>
+                <div class="skill-progress">
+                    <span data-progress="50%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End our skills -->
+
+    <!--  Start Gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="imgs-box">
+                <img src="images/img-1.jpg" alt="">
+                <img src="images/img-2.jpg" alt="">
+                <img src="images/img-3.jpg" alt="">
+                <img src="images/img-4.jpg" alt="">
+                <img src="images/img-5.jpg" alt="">
+                <img src="images/img-6.jpg" alt="">
+                <img src="images/img-7.jpg" alt="">
+                <img src="images/img-8.jpg" alt="">
+                <img src="images/img-9.jpg" alt="">
+                <img src="images/img-10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--  End Gallery -->
+
+    <!-- Start Timeline -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2023</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>An 'About Us' page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business </p>
+                    </div>
+                </div>
+                <div class="clear-row"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>An 'About Us' page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business </p>
+                    </div>
+                </div>
+                <div class="clear-row"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>An 'About Us' page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-content">
+                <div class="year">2023</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>An 'About Us' page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business </p>
+                    </div>
+                </div>
+                <div class="clear-row"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>An 'About Us' page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business </p>
+                    </div>
+                </div>
+                <div class="clear-row"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>An 'About Us' page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Our features -->
+    <div class="features">
+        <h2>Our features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <i class="fa-solid fa-object-group"></i>
+                <h4>Development</h4>
+                <p>We are very Skillful and we can do anything you want in no time.</p>
+            </div>
+
+            <div class="feat-box">
+                <i class="fa-solid fa-calendar-days"></i>
+                <h4>Development</h4>
+                <p>We are very Skillful and we can do anything you want in no time.</p>
+            </div>
+
+            <div class="feat-box">
+                <i class="fa-solid fa-desktop"></i>
+                <h4>Development</h4>
+                <p>We are very Skillful and we can do anything you want in no time.</p>
+            </div>
+
+            <div class="feat-box">
+                <i class="fa-solid fa-layer-group"></i>
+                <h4>Development</h4>
+                <p>We are very Skillful and we can do anything you want in no time.</p>
+            </div>
+
+            <div class="feat-box">
+                <i class="fa-solid fa-shop"></i>
+                <h4>Development</h4>
+                <p>We are very Skillful and we can do anything you want in no time.</p>
+            </div>
+
+            <div class="feat-box">
+                <i class="fa-solid fa-brain"></i>
+                <h4>Development</h4>
+                <p>We are very Skillful and we can do anything you want in no time.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End features -->
+
+    <!-- Start Testimonials -->
+    <div class="testimonails">
+        
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="ts-boxes">
+                <div class="ts-box">
+                    <p>I really liked everything about this website, it makes sence in a lot of things and it's good for our childern</p>
+                    <div class="person-info">
+                        <img src="https://placehold.it/80/AAA" alt="">
+                        <h4>Mohammed Saleh</h4>
+                        <p>CEO of big platform</p>
+                    </div>
+                </div>
+    
+                <div class="ts-box">
+                    <p>I really liked everything about this website, it makes sence in a lot of things and it's good for our childern</p>
+                    <div class="person-info">
+                        <img src="https://placehold.it/80/AAA" alt="">
+                        <h4>Mohammed Saleh</h4>
+                        <p>CEO of big platform</p>
+                    </div>
+                </div>
+    
+                <div class="ts-box">
+                    <p>I really liked everything about this website, it makes sence in a lot of things and it's good for our childern</p>
+                    <div class="person-info">
+                        <img src="https://placehold.it/80/AAA" alt="">
+                        <h4>Mohammed Saleh</h4>
+                        <p>CEO of big platform</p>
+                    </div>
+                </div>
+
+                
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Start Contact us -->
+    <div class="contact-us">
+        <div class="layer"></div>
+        <div class="container">
+            <h2>Contact us</h2>
+            <form action="">
+                <input type="text" placeholder="Your name" name="name">
+                <input type="text" placeholder="Your phone" name="phone">
+                <input type="email" placeholder="Your email" name="email">
+                <input type="text" placeholder="Your subject" name="subject">
+                <textarea name="message" placeholder="Your message"></textarea>
+                <input type="submit" value="Send" name="submition">
+            </form>
+        </div>
+    </div>
+    <!-- End Contact us -->
+
+    <script src="js/master.js"></script>
+</body>
+</html>
