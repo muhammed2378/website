@@ -134,7 +134,7 @@ function randomizebckImg(){
 
             // set the image
             landing_page.style.backgroundImage = `url(${imgs[randomNumber]})`;
-        }, 100)
+        }, 10000)
 
     }
 }
