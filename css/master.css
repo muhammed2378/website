@@ -151,7 +151,7 @@ body {
     top: 50%;
     transform: translate(-50%, 0);
     width: 40px;
-    z-index: 999;
+    z-index: 1003;
 }
 
 .nav-bullets .bullet {
@@ -201,9 +201,7 @@ body {
 /* Start Landing page */
 .landing-page {
     min-height: 100vh;
-    background-image: url('../images/img-1.jpg');
     background-color: cover;
-    /* background-repeat: no-repeat; */
     color: aliceblue;
     position: relative;
     transition: .3s linear;
