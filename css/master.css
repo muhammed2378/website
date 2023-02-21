@@ -206,6 +206,7 @@ body {
     position: relative;
     transition: .3s linear;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .landing-page .overlay {
