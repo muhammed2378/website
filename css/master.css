@@ -205,6 +205,7 @@ body {
     color: aliceblue;
     position: relative;
     transition: .3s linear;
+    background-repeat: no-repeat;
 }
 
 .landing-page .overlay {
